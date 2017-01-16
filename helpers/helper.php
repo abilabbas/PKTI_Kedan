@@ -54,4 +54,8 @@ function punya_permisi($permisi = 'admin'){
 	return false;
 }
 
+function tanggal_cantik($tanggal){
+	return date("d M, Y h:i", strtotime($tanggal));
+}
+
 ?>
